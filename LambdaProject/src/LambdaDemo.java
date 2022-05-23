@@ -9,6 +9,7 @@ public class LambdaDemo {
 			return a+b;
 		};
 		int c=calc.addition(5, 6);
+		System.out.println("new repository created");
 		System.out.println(c);
 		IPractice prac=(x, y) -> System.out.println(x*y);
 		prac.multiplication(6, 9);
